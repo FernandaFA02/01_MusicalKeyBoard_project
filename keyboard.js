@@ -9,10 +9,10 @@ const whitekeys = document.querySelectorAll('.key.white')
 const blackkeys = document.querySelectorAll('.key.black')
 
 keys.forEach(key => { //Se crea funcion para elemnto key
-    key.addEventListener('click', () => playNote(key))//Se arega addEventListener para cada vezz ue se de un click
+    key.addEventListener('click', () => playNote(key))//Se arega addEventListener para cada vez que se de un click
 })
 
-document.addEventListener('keydown', e => { //Se crea un addEvent-listener para permitirnos reprducir el sonido
+document.addEventListener('keydown', e => { //Se crea un addEventListener para permitirnos reproducir el sonido
     if (e.repeat) return //Para que el sonido no se repita una y otra vez
     const key = e.key  //Para que se active la tecla exacta que presionamos
     const whiteKeyIndex =  WHITE_KEYS.indexOf(key) //Teclas blancas
