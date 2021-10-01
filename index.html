@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>JS Vanilla Piano</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="keyboard.js" defer></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@1&display=swap');
+            </style>
+    </head>
+    <body>
+<!--Titulo-->        
+<h1 class="title"><strong>JS Vanilla Piano</strong></h1>
+<!--Quote-->
+<h2>Without music life would be a mistake -  Nietzsche.</h2>
+<!--Se agrupa la clase piano para contener todas las teclas-->
+<div class="piano">
+    <!--Se crean dos clases para contener las teclas blancas y las negras, agregando los data-note para cada  nota-->
+    <div data-note="60" class="key white"></div>
+    <div data-note="61" class="key black"></div>
+    <div data-note="62" class="key white"></div>
+    <div data-note="63" class="key black"></div>
+    <div data-note="64" class="key white"></div>
+    <div data-note="65" class="key white"></div>
+    <div data-note="66" class="key black"></div>
+    <div data-note="67" class="key white"></div>
+    <div data-note="68" class="key black"></div>
+    <div data-note="69" class="key white"></div>
+    <div data-note="70" class="key black"></div>
+    <div data-note="71" class="key white"></div>
+    <div data-note="72" class="key white"></div>
+    <div data-note="73" class="key black"></div>
+    <div data-note="74" class="key white"></div>
+    <div data-note="75" class="key black"></div>
+    <div data-note="76" class="key white"></div>
+    <div data-note="77" class="key white"></div>
+    <div data-note="78" class="key black"></div>
+    <div data-note="79" class="key white"></div>
+    <div data-note="80" class="key black"></div>
+    <div data-note="81" class="key white"></div>
+    <div data-note="82" class="key black"></div>
+    <div data-note="83" class="key white"></div>
+</div>
+
+<!--Se crean las tag audio para agregar el mp3 de cada nota, identificandolo con su respectivo id-->
+    <audio id="60" src="./assets/60.mp3"></audio>
+    <audio id="61" src="./assets/61.mp3"></audio>
+    <audio id="62" src="./assets/62.mp3"></audio>
+    <audio id="63" src="./assets/63.mp3"></audio>
+    <audio id="64" src="./assets/64.mp3"></audio>
+    <audio id="65" src="./assets/65.mp3"></audio>
+    <audio id="66" src="./assets/66.mp3"></audio>
+    <audio id="66" src="./assets/66.mp3"></audio>
+    <audio id="67" src="./assets/67.mp3"></audio>
+    <audio id="68" src="./assets/68.mp3"></audio>
+    <audio id="69" src="./assets/69.mp3"></audio>
+    <audio id="70" src="./assets/70.mp3"></audio>
+    <audio id="71" src="./assets/71.mp3"></audio>
+    <audio id="72" src="./assets/72.mp3" ></audio>
+    <audio id="73" src="./assets/73.mp3"></audio>
+    <audio id="74" src="./assets/74.mp3"></audio>
+    <audio id="75" src="./assets/75.mp3"></audio>
+    <audio id="76" src="./assets/76.mp3"></audio>
+    <audio id="77" src="./assets/77.mp3"></audio>
+    <audio id="78" src="./assets/78.mp3"></audio>
+    <audio id="79" src="./assets/79.mp3"></audio>
+    <audio id="80" src="./assets/80.mp3"></audio>
+    <audio id="81" src="./assets/81.mp3"></audio>
+    <audio id="82" src="./assets/82.mp3"></audio>
+    <audio id="83" src="./assets/83.mp3"></audio>
+    
+<!--Videos-->
+
+    <a href="https://www.youtube.com/embed/FYBwNcTeY7M" target="_blank">
+        <h2>Nietzsche Music Piano</h2>
+    </a>
+
+    <a href="https://www.youtube.com/embed/4xWQjJxbUP4" target="_blank">
+        <h2>La filosofía en la música</h2>
+    </a>
+
+    
+<!--Footer-->
+
+<footer>   
+    
+<!--Contacto-->
+    <a href="mailto: fajardo.al9402@gmail.com" target="_blank">
+        <i class="fa fa-envelope-o"></i>
+    </a>
+
+    <a href="https://github.com/FernandaFA02" target="_blank">
+        <h2>Fernanda Fajardo 2021, CDMX</h2>
+    </a>
+    
+</footer>    
+    </body>
+</html>
